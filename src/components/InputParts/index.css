@@ -1,0 +1,44 @@
+.login {
+    /* background-color: red; */
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.signup {
+    /* background-color: red; */
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.ToggleLoginOrSignup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.loader {
+    display: flex;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdc5cc9c;
+    z-index: 10;
+}
+
+#title{
+    font-weight: bold;
+    text-align: center;
+}  

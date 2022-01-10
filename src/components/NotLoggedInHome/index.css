@@ -1,0 +1,29 @@
+#textbox {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 13px;
+    min-height: 400px;
+    margin: 0;
+    tab-size: 4;
+    overflow: hidden; 
+    overflow-wrap: break-word; 
+    resize: none;
+    outline: none;
+    font: inherit;
+}
+
+.MuiListItemText-root.MuiListItemText-multiline {
+    display: inline-grid;
+}
+
+/* .MuiListItemText-root.MuiListItemText-multiline {
+    margin: 0;
+} */
+
+.public-list-Sidebar {
+    overflow-y: scroll;
+    height: 86vh;
+} 
